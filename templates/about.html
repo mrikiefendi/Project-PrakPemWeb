@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id" style="background-color:#0A0A0C;color-scheme:dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riki Efendi — About</title>
+    <style>html,body{background-color:#0A0A0C}</style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo"><span>E</span>fendi</a>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about" class="active">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/projects">Projects</a>
+            <a href="/blog">Blog</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h3 class="section-title">About Me</h3>
+            <div class="about-content">
+                <p>Saya adalah <span class="highlight">mahasiswa Informatika</span> angkatan 2025. Saya sangat tertarik dengan pengembangan web sejak masih di SMK &mdash; dan hal pertama yang ingin saya pelajari adalah cara membuat website yang interaktif dan menarik.</p>
+                <p>Saat ini saya fokus memperdalam <span class="highlight">HTML, CSS, Flask, Python</span>, dan berbagai teknologi lainnya. Saya yakin tiap keputusan yang saya buat adalah langkah menuju kesuksesan dan keberhasilan di masa depan.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h3 class="section-title">Journey</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="year">2025 &mdash; Sekarang</div>
+                    <h4>Universitas Nahdlatul Ulama Yogyakarta</h4>
+                    <p>Mulai serius belajar pemrograman web dan ikut organisasi kampus.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">2025</div>
+                    <h4>Lulus SMK &amp; Tertarik dengan Coding</h4>
+                    <p>Dulu hanya pakai Arduino untuk proyek tugas akhir sekarang mulai belajar pemrograman web, happy rasanya ngelihat diri sendiri ingin berkembang</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="year">2006</div>
+                    <h4>Lahir</h4>
+                    <p>Melihat dunia dengan mata yang baru.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="quote">
+                "It is better to fail while trying than never than never to try at all."
+                Artinya:
+                "Lebih baik gagal saat mencoba daripada tidak pernah mencoba sama sekali."
+                <cite>&mdash; Efendi</cite>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Riki Efendi
+    </footer>
+</body>
+</html>
